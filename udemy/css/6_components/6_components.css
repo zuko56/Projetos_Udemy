@@ -1,0 +1,22 @@
+#brand > img{ /*alterar no filho direto de img*/
+    height: 40px;
+}
+.shape1{
+    position: absolute;
+    height: 152vh; /*pega a altura toda da tela*/
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+}
+.shape2{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    top: 88%;
+    right: 0;
+    height: 60%;   
+}
+#footer small{
+    color: black;
+}

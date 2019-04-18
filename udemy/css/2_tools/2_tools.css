@@ -1,0 +1,62 @@
+@media only screen and (max-width:550px){ /*definindo posições conforme o tamanho da tela*/
+    body{
+        overflow-x: hidden; /*conteudo é cortado pq é maior que a area disponivel*/
+    }
+    #brand{
+        margin-left: 15px;
+    }
+    #btn-bag, #btn-login{
+        display: none;
+    }
+    #picture > img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: .5;
+    }
+    #navigation{
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        height: 105vh; /* 100% da altura da tela*/
+        background-color: #6066f2;
+        left: -100%;
+        z-index: 10;
+        transition: all 0.3s ease;
+    }
+    #navigation > ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    #navigation > ul > li{
+        padding: 25px 0;
+    }
+    #navigation > ul > li > a{
+        color: #fff !important;
+        border: none !important;
+        font-size: 25px !important;
+    }
+    #navigation > ul > li > a:hover{
+        color: #f4891f !important;
+    }
+    .menu-toggle{
+        opacity: 1;
+    }
+    #navigation.active{
+        left: 0;
+    }
+    .item-menu-responsive{
+        visibility: visible;
+    }
+    #footer{
+        text-align: center;
+        padding-top: 100px;
+        padding-right: 130px;
+    }
+    #footer > small{
+        color: #fff;
+    }
+}
