@@ -1,0 +1,17 @@
+//VARIAVEIS P/ PALETA DE CORES
+    $vermelho_escuro: #7E1819
+    $marrom_escuro: #391005
+    $marrom_claro: #ae986f
+    $laranja_claro: #9f492f
+    $laranja_mais_claro: #ffae58
+    $laranja_escuro: #c94118
+    $amarelo: #f0db00
+    $amarelo_escuro: #f1c70a
+    $vermelho: #d82822
+    $vermelho_claro: #731819
+    $branco: #f4f1cb
+    $preto: #242424 
+
+//VARIAVEIS P/ FONTES
+    $fonte_principal: 'Lobster', cursive
+    $fonte_texto: Arial
